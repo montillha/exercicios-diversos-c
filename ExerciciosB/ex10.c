@@ -2,7 +2,6 @@
 triângulo A, B e C. Seu algoritmo deve informar se o triângulo é: Escaleno (todos os lados diferentes);
 Isósceles (possui dois lados iguais); e Equilátero (todos os lados iguais); Não forma triângulo (quando a
 soma de dois lados é menor que o terceiro lado).
-
 */
 #include <stdio.h>
 #include <stdlib.h>
@@ -24,11 +23,10 @@ int main(){
     } else if (A == B && B == C) {
         printf("EQUILATERO\n");  
     } else if (A == B || A == C || B == C) {
-        printf("ISOSCELES\n");  // 
+        printf("ISOSCELES\n");  
     } else {
         printf("ESCALENO\n"); 
     }
-    
     return 0;
 
 }
