@@ -190,6 +190,7 @@ int main(){
         printf("Digite uma opcao:");
         scanf("%d",&opcao);
     }
+    free_student_list(list);
 
 
 }
